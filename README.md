@@ -11,4 +11,5 @@ This implementation requires the following:
 
 ##Usage 
 1. Clone this repository
-2. Go to the root folder and run python manage.py migrate
+2. Go to the root folder and run:
+<code>python manage.py migrate</code>
