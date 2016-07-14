@@ -16,6 +16,7 @@ This implementation requires the following:
 to create a new database
 3. After that you could run the server:
 <code>python manage.py runserver</code>
+4. Now you are ready to send GET/POST requests
 
 ##Testing
 To test, if it correctly adds items in database and if it correctly processes request run:
