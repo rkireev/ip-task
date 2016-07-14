@@ -25,7 +25,7 @@ Finally, let's test the API itself. We will use <b>httpie</b>, which could be ea
 
 <code>http POST http://127.0.0.1:8000/ip/</code>
 
-<code>
+```
 HTTP/1.0 201 Created
 ...
 
@@ -33,11 +33,11 @@ HTTP/1.0 201 Created
     "ip_address": "127.0.0.1",
     "time": "2016-07-14T18:42:31.954000"
 }
-</code>
+```
 
 <code>http POST http://127.0.0.1:8000/ip/</code>
 
-<code>
+```
 HTTP/1.0 201 Created
 ...
 
@@ -45,11 +45,11 @@ HTTP/1.0 201 Created
     "ip_address": "127.0.0.1",
     "time": "2016-07-14T18:43:32.168000"
 }
-</code>
+```
 
 <code>http GET http://127.0.0.1:8000/ip/</code>
 
-<code>
+```
 HTTP/1.0 200 OK
 ...
 
@@ -63,5 +63,4 @@ HTTP/1.0 200 OK
         "time": "2016-07-14T18:43:32.168000"
     }
 ]
-
-</code>
+```
